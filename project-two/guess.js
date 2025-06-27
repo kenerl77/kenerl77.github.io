@@ -5,7 +5,7 @@ let message = document.getElementById("message");
 const submitGuess = document.getElementById("submit");
 let gameOver = false;
 let attempts = 0;
-const maxAttempts = 5;
+const maxAttempts = 6;
 
 guessInput.addEventListener("keypress",function(e){
     if(e.key === "Enter"){
