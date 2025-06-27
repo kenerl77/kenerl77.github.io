@@ -1,0 +1,72 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  background: linear-gradient(to bottom right, #f0f8ff, #cce5ff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Header and Text */
+.container h1 {
+  font-size: 2.5rem;
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+.container p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005fa3;
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+  .button-group {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
