@@ -1,0 +1,13 @@
+form{
+  background-color: white;
+  border-color: black ;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  font-size: 24px;
+}
+#textBox{
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+}
