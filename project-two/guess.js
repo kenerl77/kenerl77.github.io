@@ -51,7 +51,7 @@ function endGame() {
 }
 
 restartBtn.onclick = function () {
-    randomNumValue = Math.floor(Math.random() * 100) + 1;
+    randomNumgenerator = Math.floor(Math.random() * 100) + 1;
     attempts = 0;
     gameOver = false;
     guessInput.disabled = false;
