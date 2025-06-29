@@ -11,7 +11,7 @@ function rollDice(){
     for(let i = 0; i < numOfDice; i++){
         const value = Math.floor(Math.random() * 6 + 1);
         values.push(value);
-        images.push(`img src = Dice-images/${value}.jpg`)
+        images.push(`<img src = Dice-images/${value}.jpg>`)
     }
     resultValues.textContent = `dice: ${values.join(`, `)}`;
     imageValues.innerHTML = images.join(" ");
